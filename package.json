@@ -1,0 +1,31 @@
+{
+  "name": "Collab",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "frisbee": "^1.6.4",
+    "moment": "^2.20.1",
+    "prop-types": "^15.6.0",
+    "react": "16.0.0",
+    "react-native": "0.51.0",
+    "react-native-country-picker-modal": "^0.5.1",
+    "react-native-datepicker-dialog": "0.0.8",
+    "react-native-form": "^2.1.2",
+    "react-native-loading-spinner-overlay": "^0.5.2",
+    "react-native-router-flux": "^4.0.0-beta.25",
+    "react-native-simple-radio-button": "^2.7.1"
+  },
+  "devDependencies": {
+    "babel-jest": "22.0.4",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.0.4",
+    "react-test-renderer": "16.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
